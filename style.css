@@ -1,0 +1,281 @@
+/*(c)copyright alliance designs*/
+/*@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    position: fixed;
+    display: inline-block;
+    background-color: white;
+    width: 1500px;
+    height: 50px;
+    box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+.l-text{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: white;
+    width: fit-content;
+    height:40px;
+    margin-left: 30px;
+    font-size: 2em;
+}
+
+nav{
+    width: fit-content;
+    margin-left: 879px;
+    margin-top: -30px;
+}
+nav a{
+    font-family: 'Baloo Tamma 2',cursive;
+    color: rgb(83, 78, 78);
+    text-decoration: none;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding-right: 30px;
+}
+nav a :hover{
+    color: rgb(21, 223, 213);
+}
+.banner{
+    position: absolute;
+    background-image: url(./photos/alvaro-reyes-fSWOVc3e06w-unsplash.jpg);
+    width: 100%;
+    height: 610px;
+    margin-top: 52px;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.welcome{
+    font-family: 'Baloo Tamma 2',cursive;
+    color: white;
+    font-size: 3em;
+    width: fit-content;
+    margin-top: 150px;
+    margin-left: 220px;
+}
+.world-wide{
+    width: fit-content;
+    margin-left: 540px;
+    font-family: 'Baloo Tamma 2',cursive;
+    font-size: 3em;
+    color: white;
+}
+.letter-e{
+    color: rgb(16, 182, 238);
+}
+.about{
+    border-bottom: 3px solid rgb(21, 223, 213);
+    position: absolute;
+    width: 100%;
+    height: 610px;
+    margin-top: 662px;
+}
+.about-t{
+    color: rgb(21, 223, 213);
+    font-size: 2em;
+    font-family: 'Baloo Tamma 2',cursive;
+    width: fit-content;
+    margin-left: 550px;
+    margin-top: 55px;
+}
+.about-p{
+    width: 500px;
+    margin-left: 250px;
+}
+.paragraph-1{
+    font-style: italic;
+
+    margin-left: 250px;
+}
+.header-goal{
+    color: rgb(21, 223,213);
+    font-family: 'Ballo Tammma 2', cursive;
+    width: fit-content;
+    font-size: 1.5em;
+    margin-left: 250px;
+}
+.goal-p{
+    width: 500px;
+    margin-left: 250px;
+}
+.dot-a{
+    color: rgb(21, 223, 213);
+    font-style: none;
+    text-decoration: none;
+}
+.header-what{
+    color: rgb(21, 223, 213);
+    margin-left: 250px;
+    width: fit-content;
+    font-size: 1.5em;
+    font-family: 'Ballo Tamma 2', cursive;
+}
+.img-r{
+    display: inline-block;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.our-team{
+    position: absolute;
+    margin-top: 1275px;
+    width: 100%;
+    height: 610px;
+    
+
+}
+.our-text{
+    font-family: arial;
+    font-size: 35px;
+    color: black;
+    width: fit-content;
+    margin-left: 625px;
+    margin-top: 63px;
+}
+.text-o{
+    color: gray;
+    font-size: 14px;
+    font-family: arial;
+    width: fit-content;
+    margin-left: 460px;
+    margin-top: 15px;
+
+}
+.text2-o{
+    color: grey;
+    font-size: 14px;
+    font-family: arial;
+    width: fit-content;
+    margin-left: 520px;
+    margin-top: 5px;
+}
+
+.line-o{
+    width: 250px;
+    height: 1.5px;
+    margin-left: 550px;
+    margin-top: 15px;
+    background-color: rgba(170, 170, 170, 0.918);
+    transition: background-color 0.3s ease-in-out;
+}
+.line-o:hover{
+    content: none;
+    background-color: rgb(16, 182, 238);
+    width: 300px;
+    
+}
+/*screen sizes  of different Devises*/
+@media (min-width:1550px) {
+    header{
+        position: fixed;
+        display: inline-block;
+        background-color: white;
+        width: 2900px;
+        height: 50px;
+        box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.75);
+        z-index: 1;
+    }
+    .l-text{
+        font-family: 'Baloo Tamma 2',cursive;
+        background-color: white;
+        width: fit-content;
+        height:40px;
+        margin-left: 30px;
+    }
+    
+    nav{
+        width: fit-content;
+        margin-left: 1370px;
+        margin-top: -40px;
+    }
+    nav a{
+        font-size: 1.5em;
+        font-family: 'Baloo Tamma 2',cursive;
+        color: rgb(83, 78, 78);
+        text-decoration: none;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        padding-right: 30px;
+        
+    }
+    .banner{
+        position: absolute;
+        background-color: blue;
+        background-image: url(./photos/alvaro-reyes-fSWOVc3e06w-unsplash.jpg);
+        width: 100%;
+        height: 750px;
+        margin-top: 52px;
+        background-size: cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+    }
+    .welcome{
+        font-family: 'Baloo Tamma 2',cursive;
+        color: white;
+        font-size: 3em;
+        width: fit-content;
+        margin-top: 150px;
+        margin-left: 490px;
+    }
+    .world-wide{
+        width: fit-content;
+        margin-left: 790px;
+        font-family: 'Baloo Tamma 2',cursive;
+        font-size: 3em;
+        color: white;
+    }
+    .about{
+        position: absolute;
+        width: 100%;
+        height: 1120px;
+        margin-top: 599px;
+    }
+    .about-t{
+        font-size: 3em;
+        font-family: 'Baloo Tamma 2',cursive;
+        width: fit-content;
+        margin-left: 750px;
+        margin-top: 55px;
+    }
+    .paragraph-1{
+        font-size: 19px;
+        font-style: italic;
+        color: gray;
+        width: 400px;
+        margin-left: 90px;
+    }
+    .paragraph-2{
+        font-size: 19px;
+        font-style: italic;
+        color: gray;
+        width: 400px;
+        margin-left: 1280px;
+        margin-top: -267px;
+    }
+    .img-r{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+    .text-r{
+        position: absolute;
+        font-style: italic;
+        color: gray;
+        width: 1000px;
+        margin-left: 150px;
+        margin-top: -89px;
+    }
+}/*commited on 18/11/2020 by nshuti alliance*/
